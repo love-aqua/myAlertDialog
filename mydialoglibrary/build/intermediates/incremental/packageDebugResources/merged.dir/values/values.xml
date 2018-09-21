@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="mn_colorDialogImageTintColor">#ffffff</color>
+    <color name="mn_colorDialogProgressBarBgColor">#b4b4b4</color>
+    <color name="mn_colorDialogProgressBarColor">#ffffff</color>
+    <color name="mn_colorDialogProgressBarProgressColor">#FFFFFF</color>
+    <color name="mn_colorDialogProgressBarSecondProgressColor">#ff9c9c</color>
+    <color name="mn_colorDialogTextColor">#ffffff</color>
+    <color name="mn_colorDialogTrans">#00000000</color>
+    <color name="mn_colorDialogViewBg">#b2000000</color>
+    <color name="mn_colorDialogWindowBg">#66000000</color>
+    <color name="mn_colorDialogWindowTransparentBg">#00000000</color>
+    <declare-styleable name="MNCircularProgressBar"><attr format="integer" name="mn_progress"/><attr format="color" name="mn_progressbar_color"/><attr format="color" name="mn_background_progressbar_color"/><attr format="dimension" name="mn_progressbar_width"/><attr format="dimension" name="mn_background_progressbar_width"/></declare-styleable>
+    <declare-styleable name="MNProgressWheel"><attr format="boolean" name="mn_progressIndeterminate"/><attr format="color" name="mn_barColor"/><attr format="color" name="mn_rimColor"/><attr format="dimension" name="mn_rimWidth"/><attr format="float" name="mn_spinSpeed"/><attr format="integer" name="mn_barSpinCycleTime"/><attr format="dimension" name="mn_circleRadius"/><attr format="boolean" name="mn_fillRadius"/><attr format="dimension" name="mn_barWidth"/><attr format="boolean" name="mn_linearProgress"/></declare-styleable>
+    <string name="app_name">MNDialogLibrary</string>
+    <style name="MNCustomDialog" parent="@android:style/Theme.Dialog">
+        <!-- 无边框 -->
+        <item name="android:windowFrame">@null</item>
+        <!-- 是否浮现在activity之上 -->
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation.Dialog</item>
+        <item name="android:windowSoftInputMode">stateUnspecified|adjustPan</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <!--无遮罩效果-->
+        <item name="android:backgroundDimEnabled">false</item>
+    </style>
+</resources>
